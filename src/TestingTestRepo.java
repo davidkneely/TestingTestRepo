@@ -19,4 +19,13 @@ public class TestingTestRepo {
     System.out.println(inputString);
     return inputString;
   }
+
+  /**
+   * Prints the int that has been input to the command line.
+   * @param inputInt The input int.
+   * @return The processed int.
+   */
+  public static int doSomethingWithInt(int inputInt) {
+    return inputInt;
+  }
 }
