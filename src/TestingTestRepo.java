@@ -28,4 +28,14 @@ public class TestingTestRepo {
   public static int doSomethingWithInt(int inputInt) {
     return inputInt;
   }
+
+  /**
+   * Prints input int again.
+   * @param inputInt The input int.
+   * @return The input int.
+   */
+  public static int doSecondThingWithInt(int inputInt) {
+    return inputInt;
+  }
+
 }

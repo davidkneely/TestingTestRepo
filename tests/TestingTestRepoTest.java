@@ -14,4 +14,9 @@ public class TestingTestRepoTest {
   public void testDoSomething() throws Exception {
     assertEquals("tests for input string to create output string", "Hello", TestingTestRepo.doSomething("Hello"));
 }
+
+  @Test
+  public void testDoSecondThingWithInt() throws Exception {
+
+  }
 }
